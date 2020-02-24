@@ -9,3 +9,26 @@ let db = {
     }
   ]
 };
+const userDetails = {
+    // Redux data
+  credentials: {
+    userId: "isSL69CshGhsyvwft5EyP1p6l1A2",
+    email: "new@email.com",
+    handle: "new",
+    createdAt: "2020-02-23T15:31:27.393Z",
+    imageUrl:
+      "image/ghghghg",
+    location: "Helsinki, Finland",
+    website: "http://google.fi"
+  },
+  likes: [
+      {
+          userHandle: "user",
+          screamId: "hh343434334"
+      },
+      {
+          userHandle: "user",
+          screamId: "hhrr224242"
+      }
+  ]
+};
