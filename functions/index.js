@@ -2,7 +2,11 @@ const functions = require("firebase-functions");
 
 const app = require("express")();
 
+var cors = require("cors");
+
 const FBAuth = require("./util/fbAuth");
+
+app.use(cors());
 
 const {
   getAllPosts,
